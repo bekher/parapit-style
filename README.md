@@ -22,7 +22,7 @@ Addendum: [Complete Guides](#complete-guides)
 #### Ground Rules
   1. First rule: Use common sense.
   2. Second rule: Security is the main priority.
-  3. Third rule: KISS.
+  3. Third rule: [KISS](https://en.wikipedia.org/wiki/KISS_principle).
   
 #### Security
 + Do not commit secrets and passwords, even to private repositories
