@@ -34,7 +34,7 @@ Addendum: [Complete Guides](#complete-guides)
   - Sanitize ALL data collection when processing 
 + Frontend:
   - Do not insert arbitrary data in the DOM, escape all HTML
-  - Sanatize and verify ALL user input
+  - Sanitize and verify ALL user input
 
 #### Version Control
   + Pre-v1.0.0 stable:
@@ -43,7 +43,7 @@ Addendum: [Complete Guides](#complete-guides)
 	
 #### Whitespace
 + Line breaks:
-    - Use Unix linebreaks (‘\n’) no Windows linkebreaks (‘\r\n’) (convert with dos2unix if needed, preferably do not code on Windows)
+    - Use Unix linebreaks (‘\n’), no Windows linebreaks (‘\r\n’) (convert with dos2unix if needed, preferably do not code on Windows)
 + Line length:
     - 120 characters or less (recommend under 80)
 + Avoid trailing whitespace
@@ -53,9 +53,9 @@ Addendum: [Complete Guides](#complete-guides)
   - Yes: `var numFeedItems`
   - No: `var nItems`
   - No: `var theNumberOfFeedItems`
-+ Use camelCase for variables and functions
-+ First letter uppercase CamelCase for classes
-+ Constants should be in all caps
++ Use camelCase (lowercase first letter) for variables and functions
++ CamelCase (uppercase) for classes and prototypes
++ CONSTANTS should be in all caps
 
 #### Comments
 + Insert comments as needed, preferably every at each logical code-block separation or every few lines. 
@@ -106,7 +106,7 @@ Addendum: [Complete Guides](#complete-guides)
 + Complex conditional expressions should be assigned to a variable
 
 #### Other practices
-+ Avoid “magic” code; definition: spaghettified and/or mysterious code that works without explaination
++ Avoid “magic” code; definition: spaghettified and/or mysterious code that works without explanation
 + Do not put an else after a return, the else will be executed regardless
 + Do not compare `x == true` or `x == false`, use `(x)` or `(!x)`. However, do compare objects to null and strings to “” if there is chance for confusion
 + Declare local functions close to their use
@@ -144,7 +144,7 @@ ES5 Only
 + Use string formatters instead of + concatenation, for example: `myStr = ‘The %s number is %d’ % (‘magic’, 42)`
 
 -----
-Check out [Mozilla's style guide](https://developer.mozilla.org/en-US/docs/Mozilla/Developer_guide/Coding_Style) that inpsired some parts of this guide.
+Check out [Mozilla's style guide](https://developer.mozilla.org/en-US/docs/Mozilla/Developer_guide/Coding_Style) that inspired portions of this guide.
 
 ## Complete guides
 
